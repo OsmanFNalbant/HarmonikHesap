@@ -15,6 +15,7 @@ public class Main {
         {
             toplam += 1/array[i];
         }
+        toplam = a/toplam;
         System.out.println("Sonuc : "+toplam);
         sc.close();
     }
